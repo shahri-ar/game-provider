@@ -1,0 +1,63 @@
+
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
+  background-color: rgb(199, 199, 199) ;
+  border-radius: 9999px; /* fully rounded */
+  width: 3rem; /* 10 * 0.25rem = 2.5rem */
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: absolute;
+  top: 20%;
+}
+
+/* Hover effects */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Change arrow icon size */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px;
+}
+
+
+.client-swiper-img{
+  opacity: 0.5;
+  transition: all 0.3s ease;
+  scale: 50%;
+}
+
+.client-swiper-img.swiper-slide-thumb-active {
+  opacity: 1;
+  scale: 150%;
+  transition: all 0.3s ease;
+}
+
+
+@media screen and (max-width: 768px){
+
+  .client-swiper-content .swiper-button-next{
+    position: absolute;
+    bottom: 1%;
+    top: auto;
+    right:20%;
+  }
+
+  .client-swiper-content .swiper-button-prev{
+    position: absolute;
+    bottom: 1%;
+    top: auto;
+    left:20%;
+  }
+
+}
