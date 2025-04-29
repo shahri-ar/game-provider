@@ -1,7 +1,6 @@
 export { Home } from "./home";
 export { Award } from "./award";
 export { Bannar } from "./bannar";
-export { Product } from "./product";
 export { Solutions } from "./solutions";
 export { Patners } from "./patners";
 export { Review } from "./client-review";
