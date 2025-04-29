@@ -28,10 +28,11 @@ export function Footer() {
           </div>
           <div className="hidden xl:flex justify-center items-center">
             <Image
-              src="/asset/logo-white.png"
+              src="/asset/logo.png"
               alt="logo"
-              height={10}
-              width={300}
+              height={100}
+              width={200}
+              className="invert"
             />
           </div>
         </div>

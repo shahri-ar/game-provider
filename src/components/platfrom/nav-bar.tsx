@@ -74,11 +74,11 @@ function Navbar() {
             <div className="flex justify-between h-full items-center w-full order-1 md:order-2">
               <div className="place-content-center h-full">
                 <Image
-                  src="/asset/dz-logo-black.png"
+                  src="/asset/logo.png"
                   alt="logo"
-                  height={2000}
-                  width={150}
-                  className="h-full"
+                  height={300}
+                  width={500}
+                  className="h-10 w-24"
                 />
               </div>
               <div className="text-sm font-semibold">
