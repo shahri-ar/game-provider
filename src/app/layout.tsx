@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "DigitalZet",
+    title: "Gaming Provider",
     description: "Best sports betting white label provider in the worlds",
 };
 
